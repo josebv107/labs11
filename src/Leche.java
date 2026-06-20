@@ -11,6 +11,6 @@ public class Leche extends Complemento {
 
     @Override
     public double getCosto() {
-        return super.getCosto();
+        return super.getCosto() + 0.10;
     }
 }
