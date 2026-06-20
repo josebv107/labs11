@@ -1,6 +1,6 @@
 public class Descafeinado extends Cafe {
 
-    public Descafeinado(String descripcion, double precioBase) {
+    public Descafeinado() {
         super("Cafe Descafeinado", 1.05);
     }
 }
