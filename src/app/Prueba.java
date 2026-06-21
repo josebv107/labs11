@@ -1,3 +1,5 @@
+package app;
+
 import bebidas.Batido;
 import bebidas.Descafeinado;
 import bebidas.Expreso;
