@@ -1,3 +1,5 @@
+package complementos;
+
 import modelo.Bebida;
 
 public class Moca extends Complemento {
@@ -8,7 +10,7 @@ public class Moca extends Complemento {
 
     @Override
     public String getDescripcion() {
-        return super.getDescripcion() + " + Moca";
+        return super.getDescripcion() + " + complementos.Moca";
     }
 
 }

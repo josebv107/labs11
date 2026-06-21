@@ -2,6 +2,10 @@ import bebidas.Batido;
 import bebidas.Descafeinado;
 import bebidas.Expreso;
 import bebidas.TostadoNegro;
+import complementos.Crema;
+import complementos.Leche;
+import complementos.Moca;
+import complementos.Soya;
 import modelo.Bebida;
 import modelo.Tamano;
 
