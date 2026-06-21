@@ -9,8 +9,4 @@ public class Soya extends Complemento {
         return super.getDescripcion() + " + Soya";
     }
 
-    @Override
-    public double getCosto() {
-        return super.getCosto() + 0.15;
-    }
 }

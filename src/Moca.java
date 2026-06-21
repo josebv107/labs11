@@ -9,8 +9,4 @@ public class Moca extends Complemento {
         return super.getDescripcion() + " + Moca";
     }
 
-    @Override
-    public double getCosto() {
-        return super.getCosto() + 0.20;
-    }
 }

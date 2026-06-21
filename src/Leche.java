@@ -9,8 +9,4 @@ public class Leche extends Complemento {
         return bebida.getDescripcion() + " + Leche";
     }
 
-    @Override
-    public double getCosto() {
-        return super.getCosto() + 0.10;
-    }
 }

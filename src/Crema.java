@@ -9,8 +9,4 @@ public class Crema extends Complemento {
         return super.getDescripcion() + " + Crema";
     }
 
-    @Override
-    public double getCosto() {
-        return super.getCosto() + 0.10;
-    }
 }
