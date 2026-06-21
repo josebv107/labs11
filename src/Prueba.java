@@ -34,4 +34,10 @@ public class Prueba {
         System.out.println(p3.getDescripcion() + " " + p3.getCosto() + "\n");
         System.out.println(p4.getDescripcion() + " " + p4.getCosto());
     }
+
+    private static void imprimirPedido(Bebida bebida) {
+        System.out.println(bebida.getDescripcion() + " " + bebida.getCosto());
+        System.out.printf("TOTAL: %.2f%n", bebida.getCosto());
+        System.out.println("--------------\n");
+    }
 }
