@@ -1,3 +1,5 @@
+package bebidas;
+
 import modelo.Bebida;
 import modelo.Tamano;
 

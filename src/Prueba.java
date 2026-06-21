@@ -1,3 +1,7 @@
+import bebidas.Batido;
+import bebidas.Descafeinado;
+import bebidas.Expreso;
+import bebidas.TostadoNegro;
 import modelo.Bebida;
 import modelo.Tamano;
 

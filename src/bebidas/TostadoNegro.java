@@ -1,3 +1,5 @@
+package bebidas;
+
 public class TostadoNegro extends Cafe {
 
     public TostadoNegro() {
