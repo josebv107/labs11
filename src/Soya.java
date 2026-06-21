@@ -1,7 +1,7 @@
 public class Soya extends Complemento {
 
     public Soya(Bebida bebida) {
-        super(bebida);
+        super(bebida, 0.15, 0.20, 0.25);
     }
 
     @Override

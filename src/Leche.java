@@ -1,7 +1,7 @@
 public class Leche extends Complemento {
 
     public Leche(Bebida bebida) {
-        super(bebida);
+        super(bebida, 0.10, 0.15, 0.20);
     }
 
     @Override

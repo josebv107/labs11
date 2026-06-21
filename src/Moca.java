@@ -1,7 +1,7 @@
 public class Moca extends Complemento {
 
     public Moca(Bebida bebida) {
-        super(bebida);
+        super(bebida, 0.20, 0.25, 0.30);
     }
 
     @Override
