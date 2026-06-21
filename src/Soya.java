@@ -1,3 +1,5 @@
+import modelo.Bebida;
+
 public class Soya extends Complemento {
 
     public Soya(Bebida bebida) {

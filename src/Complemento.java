@@ -1,3 +1,6 @@
+import modelo.Bebida;
+import modelo.Tamano;
+
 import java.util.HashMap;
 import java.util.Map;
 

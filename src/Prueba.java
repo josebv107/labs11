@@ -1,3 +1,6 @@
+import modelo.Bebida;
+import modelo.Tamano;
+
 public class Prueba {
     static void main() {
         Bebida p1 = new Expreso();
