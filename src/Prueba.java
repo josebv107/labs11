@@ -29,14 +29,54 @@ public class Prueba {
         p4 = new Soya(p4);
         p4 = new Soya(p4);
 
-        System.out.println(p1.getDescripcion() + " " + p1.getCosto() + "\n");
-        System.out.println(p2.getDescripcion() + " " + p2.getCosto() + "\n");
-        System.out.println(p3.getDescripcion() + " " + p3.getCosto() + "\n");
-        System.out.println(p4.getDescripcion() + " " + p4.getCosto());
+        imprimirPedido(p1);
+        imprimirPedido(p2);
+        imprimirPedido(p3);
+        imprimirPedido(p4);
+
+        System.out.println("\nPARTE 2 (IMPLEMENTACIÓN DE TAMAÑOS)");
+
+        Bebida p5 = new Expreso();
+        p5.setTamano(Tamano.GRANDE);
+        p5 = new Leche(p5);
+        p5 = new Soya(p5);
+        p5 = new Crema(p5);
+        p5 = new Moca(p5);
+
+        Bebida p6 = new Descafeinado();
+        p6.setTamano(Tamano.MEDIANO);
+        p6 = new Moca(p6);
+        p6 = new Moca(p6);
+        p6 = new Soya(p6);
+        p6 = new Leche(p6);
+
+        Bebida p7 = new Batido();
+        p7.setTamano(Tamano.NORMAL);
+        p7 = new Crema(p7);
+        p7 = new Crema(p7);
+        p7 = new Leche(p7);
+        p7 = new Leche(p7);
+        p7 = new Soya(p7);
+        p7 = new Soya(p7);
+        p7 = new Moca(p7);
+        p7 = new Moca(p7);
+
+        Bebida p8 = new TostadoNegro();
+        p8.setTamano(Tamano.GRANDE);
+        p8 = new Crema(p8);
+        p8 = new Crema(p8);
+        p8 = new Soya(p8);
+        p8 = new Soya(p8);
+        p8 = new Soya(p8);
+
+        imprimirPedido(p5);
+        imprimirPedido(p6);
+        imprimirPedido(p7);
+        imprimirPedido(p8);
     }
 
     private static void imprimirPedido(Bebida bebida) {
-        System.out.println(bebida.getDescripcion() + " " + bebida.getCosto());
+        System.out.println(bebida.getDescripcion());
         System.out.printf("TOTAL: %.2f%n", bebida.getCosto());
         System.out.println("--------------\n");
     }
