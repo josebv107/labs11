@@ -10,7 +10,7 @@ public class Crema extends Complemento {
 
     @Override
     public String getDescripcion() {
-        return super.getDescripcion() + " + complementos.Crema";
+        return super.getDescripcion() + " + Crema";
     }
 
 }

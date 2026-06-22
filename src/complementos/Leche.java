@@ -10,7 +10,7 @@ public class Leche extends Complemento {
 
     @Override
     public String getDescripcion() {
-        return bebida.getDescripcion() + " + complementos.Leche";
+        return bebida.getDescripcion() + " + Leche";
     }
 
 }

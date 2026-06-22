@@ -10,7 +10,7 @@ public class Soya extends Complemento {
 
     @Override
     public String getDescripcion() {
-        return super.getDescripcion() + " + complementos.Soya";
+        return super.getDescripcion() + " + Soya";
     }
 
 }

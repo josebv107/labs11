@@ -10,7 +10,7 @@ public class Moca extends Complemento {
 
     @Override
     public String getDescripcion() {
-        return super.getDescripcion() + " + complementos.Moca";
+        return super.getDescripcion() + " + Moca";
     }
 
 }
